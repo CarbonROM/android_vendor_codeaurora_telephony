@@ -3,6 +3,7 @@
 java_library {
     name: "telephony-ext",
     installable: true,
+    system_ext_specific: true,
 
     aidl: {
         local_include_dirs: ["src/org"],
